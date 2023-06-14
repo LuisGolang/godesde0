@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/LuisGolang/godesde0/ejercicios"
 )
 
@@ -25,9 +23,14 @@ func main() {
 		fmt.Printf("%s \n", os)
 	}*/
 
-	numero01, texto01 := ejercicios.ConviertoANumero("500")
+	/*numero01, texto01 := ejercicios.ConviertoANumero("500")
 	fmt.Println(numero01)
 	fmt.Println(texto01)
+	*/
+
+	//teclado.IngresoNumeros()
+
+	ejercicios.TablaMultiplicar()
 
 }
 
