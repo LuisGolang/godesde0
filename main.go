@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/LuisGolang/godesde0/files"
+	"fmt"
+
+	"github.com/LuisGolang/godesde0/goroutines"
 )
 
 func main() {
@@ -36,7 +38,30 @@ func main() {
 
 	//files.SumaTabla()
 
-	files.LeoArchivo()
+	//files.LeoArchivo()
+
+	//funciones.LlamarClosure()
+
+	//funciones.Exponencia(2)
+
+	//arreglos_slices.MuestroArreglos()
+
+	//arreglos_slices.MuestroSlice()
+
+	//arreglos_slices.Capacidad()
+
+	//Pedro := new(modelos.Hombre)
+
+	//e.HumanosRespirando(Pedro)
+
+	//Maria := new(modelos.Mujer)
+	//e.HumanosRespirando(Maria)
+
+	go goroutines.MiNombreLento("Luis Madriz")
+
+	fmt.Println("Estoy aqui")
+	var x string
+	fmt.Scanln(&x)
 
 }
 
